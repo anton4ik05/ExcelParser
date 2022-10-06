@@ -1,5 +1,8 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+
+#nullable enable
 
 namespace ExcelParser.Models
 {
@@ -25,6 +28,5 @@ namespace ExcelParser.Models
     [Required]
     [MinLength(1, ErrorMessage = "Массив описателей остатков не должен быть пустым")]
     public IEnumerable<Remnant> Remnants { get; set; } = Array.Empty<Remnant>();
-
   }
 }

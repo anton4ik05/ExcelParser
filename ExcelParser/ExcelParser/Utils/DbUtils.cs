@@ -15,7 +15,7 @@ namespace ExcelParser.Utils
         /// <returns>Возвращает sql-код в виде строки</returns>
         public static string GetSql(Select select)
         {
-            PostgreSqlRenderer render = new PostgreSqlRenderer();
+            PostgreSqlRenderer render = new();
 
             return render.RenderSelect(select);
         }
