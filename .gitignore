@@ -347,3 +347,11 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+
+ExcelParser/ExcelFiles/ВЕСНА/остатки/ost_skl.xlsx
+
+ExcelParser/ExcelFiles/ВЭСР/закупки/purchases 09.xlsx
+
+ExcelParser/ExcelFiles/ВЭСР/остатки/ost_skl.xlsx
+
+ExcelParser/ExcelFiles/ЦФОР/purchases.xlsx
